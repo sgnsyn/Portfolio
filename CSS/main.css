@@ -1,0 +1,96 @@
+/* importing text and css files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('first-section.css');
+@import url('myskills-section.css');
+@import url('aboutme-section.css');
+@import url('contact-section.css');
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 1em;
+  background: #73a1c4;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  margin-block: 2em;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb {
+  background: #73a1c4;
+  border: 0.01em solid #ffffff;
+  border-radius: 100vw;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Nunito;
+  display: grid;
+  background-color: #73a1c4;
+}
+
+.hamburger-menu .box {
+  height: 0.2625rem;
+  width: 1.9rem;
+  background-color: #fff;
+  margin-bottom: 0.252rem;
+  box-shadow: 0.225rem 0.225rem 0.225rem rgba(0, 0, 0, 0.5);
+}
+.hamburger-menu {
+  position: fixed;
+  top: 4.26rem;
+  right: 3.14rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hamburger-menu-click {
+  position: fixed;
+  padding: 1.17rem 0.75rem;
+  top: 6.85rem;
+  right: 1.83rem;
+  /* opacity: 0; */
+  display: none;
+  overflow: hidden;
+  /* transition: display 1s ease-in; */
+  z-index: 5;
+}
+
+.hamburger-menu-click.active {
+  /* opacity: 1; */
+  display: initial;
+}
+.link-container h2 {
+  color: #000;
+  font-size: 1.03rem;
+  font-weight: normal;
+}
+
+.link-container a {
+  margin-bottom: 1.35rem;
+  background-color: #fff;
+  padding: 0.281rem 1.83rem;
+  border-radius: 0.281rem;
+  box-shadow: 0.225rem 0.375rem 0.45rem rgba(0, 0, 0, 0.225);
+  display: grid;
+  place-content: center;
+  box-shadow: -0.225rem 0.225rem 0.225rem rgba(0, 0, 0, 0.5);
+}
+
+/* anmation for .hamburger-menu */
+@keyframes scaleUpAndDown {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

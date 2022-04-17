@@ -1,0 +1,114 @@
+.third-view-height {
+  background: #73a1c4;
+  display: grid;
+  gap: 3.75rem;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.myskills-hero-text {
+  font-size: 3rem;
+  color: #fff;
+  transform: translateX(-3rem);
+  left: 7.8rem;
+  text-shadow: 1.25rem 1.35rem 0.9rem rgb(0 0 0 / 100%);
+  animation: hovery 3s ease-in-out infinite forwards;
+  padding: 4rem 0rem 2rem 0rem;
+}
+.myskills-card {
+  height: 14.8125rem;
+  width: 44.18rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  box-shadow: 0.4rem 0.5rem 0.3rem rgb(0 0 0 / 30%);
+}
+.myskills-card:nth-child(odd) {
+  transform: translateX(-25%);
+}
+.myskills-card:nth-child(even) {
+  transform: translateX(25%);
+}
+.myskills-card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.myskills-card-java {
+  background-color: #e1cd4a;
+}
+.myskills-card-java .status {
+  background: #f1dc4f;
+  transform-origin: right center;
+  transition: transform 0.5s ease-out;
+}
+
+.myskills-card-html {
+  background-color: #d5743d;
+}
+.myskills-card-html .status {
+  background: #ee8042;
+}
+.myskills-card-php {
+  background-color: #290e65;
+}
+.myskills-card-php .status {
+  background: #3e1599;
+}
+.myskills-card-css {
+  background-color: #0e7cab;
+}
+.myskills-card-css .status {
+  background: #13a2de;
+}
+
+.myskills-card .paragraph-holder {
+  width: 14.0625rem;
+  height: 14.062rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  box-shadow: 0.4rem 0.5rem 0.3rem rgb(0 0 0 / 30%);
+}
+.myskills-paragraph {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin: 2rem;
+  line-height: 1.8em;
+}
+.myskills-card:nth-child(even) .paragraph-holder {
+  bottom: 2rem;
+  right: 2rem;
+}
+.myskills-card:nth-child(odd) .paragraph-holder {
+  left: 2rem;
+  bottom: 2rem;
+}
+.myskills-card .img-box {
+  height: 4.25rem;
+  width: 4.75rem;
+  border-radius: 2.2rem;
+  object-fit: cover;
+  box-shadow: 0.4rem 0.5rem 0.3rem rgb(0 0 0 / 30%);
+
+  margin: 0 2rem;
+}
+.myskills-card .status {
+  height: 0.6rem;
+  width: 1rem;
+  border-radius: 2rem;
+  transition: width 2s ease-out;
+  box-shadow: 0.5rem 0.5rem 0.3rem rgb(0 0 0 / 30%);
+}
+
+@keyframes hovery {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

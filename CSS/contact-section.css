@@ -1,0 +1,76 @@
+.section-four-contact {
+  width: 100%;
+  background-color: #73a1c4;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#letstalk {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+}
+
+.contact-container {
+  height: 27rem;
+  width: 27rem;
+  border-radius: 2.25rem;
+  background-color: #e1cd4a;
+  margin: 6rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6.656em;
+}
+table {
+  -webkit-border-horizontal-spacing: 1.3125em;
+  -webkit-border-vertical-spacing: 0.75em;
+}
+.email-field-container {
+  position: relative;
+}
+.email-field-container label {
+  font-size: 1.3em;
+}
+.input-fields {
+  width: 12.4em;
+  height: 1.875em;
+  padding: 0.225em;
+  text-align: center;
+  border: 0;
+  box-shadow: 0.375em 0.375em 0.225em rgba(0, 0, 0, 0.4);
+  border-radius: 0.56em;
+}
+.email-field-container #message {
+  height: 4.5em;
+
+  text-align: start;
+}
+#letstalk-input {
+  padding: 0.75em 2.25em;
+  border-radius: 1.875em;
+  background-color: black;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-family: nunito;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.social-media-icon {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+}
+.social-media-link-container {
+  display: flex;
+  gap: 1.5em;
+}
+
+.socialmedia-text {
+  transform: translate(-2.65em, -0.75em);
+}

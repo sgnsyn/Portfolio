@@ -1,0 +1,35 @@
+.middle-view-height {
+  background: #73a1c4;
+  padding: 6.75rem;
+  display: grid;
+  place-content: center;
+}
+
+.aboutme-container {
+  background-color: white;
+  height: 20.67rem;
+  width: 47.5rem;
+  margin-left: 0.75rem;
+  margin-top: 2.25rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.75rem 0.75rem 0.75rem 0.1725rem rgba(0, 0, 0, 0.4);
+  border-radius: 1.5rem;
+}
+
+.aboutme-text {
+  font-size: 1.5rem;
+  margin-left: 2.25rem;
+}
+
+.aboutme-paragraph {
+  text-justify: distribute;
+  text-align: justify;
+  margin: 2.25rem;
+  font-size: 1.5rem;
+  /* line-height: 3rem; */
+}
+div#aboutme {
+  padding-top: 4.5rem;
+}
